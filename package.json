@@ -1,0 +1,47 @@
+{
+  "name": "responsive-hook",
+  "version": "1.0.0",
+  "description": "This hook returns the viewport width in real time, as well as observing a breakpoint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "export TEST_ENV=jsdom && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dauglismoreira/responsive-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "viewport",
+    "responsive",
+    "breakpoints",
+    "media",
+    "query",
+    "width",
+    "custom",
+    "condition"
+  ],
+  "author": "Dauglis Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dauglismoreira/responsive-hook/issues"
+  },
+  "homepage": "https://github.com/dauglismoreira/responsive-hook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "react-dom": "^17.0.2"
+  }
+}
