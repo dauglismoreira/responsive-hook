@@ -4,5 +4,5 @@ declare module 'responsive-hook' {
       width: number;
   }
 
-  export { default as useScreenSize } from './src/hooks/useScreenSize';
+  export default function useScreenSize(breakpoint: number): ScreenSize;
 }
